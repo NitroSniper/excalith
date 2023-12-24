@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react"
-import { RunCommand, search } from "@/utils/command"
+import { RunCommand, Search } from "@/utils/command"
 import Prompt from "@/components/Prompt"
 import { useSettings } from "@/context/settings"
 
@@ -26,7 +26,7 @@ const Search = ({ commandChange, selectionChange }) => {
 			let isCtrlPressed = (e.metaKey || e.ctrlKey)
 			// Submit prompt
 			if (e.key === "Enter") {
-				isCtrlPressed ? search(command, settings) : RunCommand(command, settings)
+				isCtrlPressed ? Search(command, settings) : RunCommand(command, settings)
 			}
 			// Clear prompt
 			else if (isCtrlPressed && e.code === "KeyC") {
