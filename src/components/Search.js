@@ -23,7 +23,7 @@ const Search = ({ commandChange, selectionChange }) => {
 	// Key Down
 	useEffect(() => {
 		const handleKeyDown = (e) => {
-			let isCtrlPressed = (e.metaKey || e.ctrlKey)
+			let isCtrlPressed = e.metaKey || e.ctrlKey
 			// Submit prompt
 			if (e.key === "Enter") {
 				isCtrlPressed ? DefaultSearch(command, settings) : RunCommand(command, settings)
