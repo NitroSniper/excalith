@@ -88,6 +88,11 @@ const defaultConfig = {
 				name: "Repository Search",
 				url: "https://github.com/NitroSniper/{}"
 			},
+			{
+				alias: "localhost",
+				name: "Localhost port",
+				url: "http://localhost:{}"
+			},
 		]
 	},
 	sections: {
