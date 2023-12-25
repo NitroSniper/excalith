@@ -25,7 +25,7 @@ const defaultConfig = {
 	terminal: {
 		fixedHeight: true,
 		windowGlow: true,
-		textGlow: false
+		textGlow: false,
 		opacity: 1,
 		blur: 0
 	},
@@ -182,22 +182,22 @@ const defaultConfig = {
 				links: [
 					{
 						name: "Blackboard",
-						url: "https://learn.uea.ac.uk/",
+						url: "https://learn.uea.ac.uk",
 						icon: "icon-park-outline:blackboard"
 					},
 					{
 						name: "Outlook",
-						url: "fa6-solid:user-astronaut",
+						url: "https://outlook.office.com",
 						icon: "file-icons:microsoft-outlook"
 					},
 					{
 						name: "Timetabler",
-						url: "https://blogs.nasa.gov/",
+						url: "https://timetabler.uea.ac.uk",
 						icon: "mdi:timetable"
 					},
 					{
 						name: "SU Events",
-						url: "https://www.ueasu.org/tickets/",
+						url: "https://www.ueasu.org/tickets",
 						icon: "mdi:events"
 					},
 				]
