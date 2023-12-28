@@ -17,7 +17,7 @@ const defaultConfig = {
 		orange: "#ff8800"
 	},
 	wallpaper: {
-		url: "https://github.com/NitroSniper/excalith/main/background.gif?raw=true",
+		url: "https://github.com/NitroSniper/excalith/blob/main/background.gif?raw=true",
 		easing: "ease-in-out",
 		fadeIn: true,
 		blur: true
