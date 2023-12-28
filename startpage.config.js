@@ -17,7 +17,7 @@ const defaultConfig = {
 		orange: "#ff8800"
 	},
 	wallpaper: {
-		url: "",
+		url: "https://github.com/NitroSniper/excalith/main/background.gif?raw=true",
 		easing: "ease-in-out",
 		fadeIn: true,
 		blur: true
@@ -25,9 +25,9 @@ const defaultConfig = {
 	terminal: {
 		fixedHeight: true,
 		windowGlow: true,
-		textGlow: false,
-		opacity: 1,
-		blur: 0
+		textGlow: true,
+		opacity: 0.8,
+		blur: 0.4
 	},
 	prompt: {
 		ctrlC: true,
@@ -89,7 +89,7 @@ const defaultConfig = {
 				url: "https://github.com/NitroSniper/{}"
 			},
 			{
-				alias: "localhost",
+				alias: "lh",
 				name: "Localhost port",
 				url: "http://localhost:{}"
 			},
@@ -123,6 +123,11 @@ const defaultConfig = {
 						name: "Advent Of Code",
 						url: "https://adventofcode.com",
 						icon: "simple-icons:adventofcode"
+					},
+					{
+						name: "Vercel",
+						url: "https://vercel.com",
+						icon: "akar-icons:vercel-fill"
 					},
 				]
 			},
@@ -159,7 +164,7 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Valo Tracker",
+						name: "Tracker",
 						url: "https://tracker.gg/valorant/profile/riot/NitroSniper%23NERD/overview",
 						icon: "healthicons:magnifying-glass"
 					},
