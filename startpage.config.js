@@ -17,7 +17,7 @@ const defaultConfig = {
 		orange: "#ff8800"
 	},
 	wallpaper: {
-		url: "https://i.ibb.co/55JwcCX/Excalith.gif",
+		url: "https://github.com/NitroSniper/excalith/main/background.gif?raw=true",
 		easing: "ease-in-out",
 		fadeIn: true,
 		blur: true
@@ -25,9 +25,9 @@ const defaultConfig = {
 	terminal: {
 		fixedHeight: true,
 		windowGlow: true,
-		textGlow: false,
-		opacity: 0.9,
-		blur: 0
+		textGlow: true,
+		opacity: 0.8,
+		blur: 0.4
 	},
 	prompt: {
 		ctrlC: true,
