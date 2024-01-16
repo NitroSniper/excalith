@@ -1,8 +1,8 @@
 {
-	"username": "Excalith",
+	"username": "nitro",
 	"theme": {
 		"name": "Default",
-		"backgroundColor": "#121317",
+		"backgroundColor": "#111111",
 		"windowColor": "#1e212b",
 		"textColor": "#e2e2e2",
 		"black": "#16161e",
@@ -16,7 +16,7 @@
 		"gray": "#97989d"
 	},
 	"wallpaper": {
-		"url": "assets/default-wallpaper.svg",
+		"url": "",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
@@ -25,13 +25,13 @@
 		"fixedHeight": true,
 		"windowGlow": true,
 		"windowGlowColor": "#291f3325",
-		"textGlow": false,
-		"opacity": 0,
+		"textGlow": true,
+		"opacity": 1,
 		"blur": 16
 	},
 	"prompt": {
 		"ctrlC": true,
-		"placeholder": "command...",
+		"placeholder": "",
 		"placeholderColor": "gray",
 		"userColor": "green",
 		"atColor": "gray",
@@ -46,7 +46,7 @@
 		"timeFormat": "HH:mm",
 		"dateFormat": "DD/MM/YYYY",
 		"titleColor": "yellow",
-		"image": "assets/default-icon.svg",
+		"image": "assets/icon.gif",
 		"data": [
 			"Time: {time}",
 			"Date: {date}",
